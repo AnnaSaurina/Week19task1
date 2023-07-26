@@ -10,8 +10,8 @@ function getPost () {
                 const box = document.createElement('div');
                 box.classList.add('box_post');
                 box.innerHTML = `
-                <div class="title">Title${element.title}</div>
-                <div class="text">Text${element.body}</div>
+                <div class="title">Title: ${element.title}</div>
+                <div class="text">Text: ${element.body}</div>
                 `;
                 wrapper.appendChild(box);
             });
